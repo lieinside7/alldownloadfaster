@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download TED Talks Video - DownloaderFaster</title>
+    <meta name="description" content="Download video dari TED Talks secara gratis. Kualitas HD, tanpa watermark.">
+    <link rel="icon" type="image/svg+xml" href="/static/img/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/main.min.css">
+</head>
+<body>
+    <header class="hdr">
+        <div class="hdr-in">
+            <a href="/" class="logo">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                    <rect width="40" height="40" rx="10" fill="url(#grad1)"/>
+                    <path d="M20 10L20 25M14 20L20 26L26 20" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <line x1="12" y1="30" x2="28" y2="30" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                    <defs>
+                        <linearGradient id="grad1" x1="0" y1="0" x2="40" y2="40">
+                            <stop offset="0%" stop-color="#7c3aed"/>
+                            <stop offset="100%" stop-color="#ec4899"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span>DownloaderFaster</span>
+            </a>
+            <select class="lang-s" onchange="window.location.href=this.value">
+                <option value="/" selected>🇬🇧 English</option>
+            </select>
+        </div>
+    </header>
+    
+    <section class="hero-section">
+        <div class="hero-content">
+            <div class="hero-badge">🎤 TED Talks Downloader</div>
+            
+            <h1 class="hero-title">
+                Download Video<br>
+                <span class="gradient-text">TED Talks</span>
+            </h1>
+            
+            <p class="hero-subtitle">
+                Download video dari TED Talks secara gratis. Kualitas HD, tanpa watermark, super cepat.
+            </p>
+            
+            <div class="dl-form-wrapper">
+                <form class="dl-form" id="downloadForm">
+                    <input type="url" class="dl-input" id="urlInput" placeholder="Paste URL video TED Talks di sini..." required>
+                    <button type="submit" class="dl-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7 10 12 15 17 10"/>
+                            <line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
+                        Download
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <section class="howto-section">
+        <div class="section-header">
+            <div class="section-badge">🚀 Cara Download</div>
+            <h2 class="section-title">3 Langkah Mudah</h2>
+        </div>
+        
+        <div class="steps-container">
+            <div class="step-card">
+                <div class="step-number">1</div>
+                <h3 class="step-title">Buka TED Talks</h3>
+                <p class="step-desc">Buka aplikasi atau website TED Talks dan cari video yang ingin didownload.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">2</div>
+                <h3 class="step-title">Copy URL</h3>
+                <p class="step-desc">Salin link/URL video dari TED Talks.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">3</div>
+                <h3 class="step-title">Paste & Download</h3>
+                <p class="step-desc">Tempel URL di kolom atas, pilih kualitas, lalu download.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="faq-section">
+        <div class="section-header">
+            <div class="section-badge">❓ FAQ</div>
+            <h2 class="section-title">Pertanyaan Umum</h2>
+        </div>
+        
+        <div class="faq-container">
+            <div class="faq-item">
+                <button class="faq-question">Apakah gratis download video TED Talks?</button>
+                <div class="faq-answer">
+                    <p>Ya, 100% gratis! Tidak ada biaya atau langganan yang diperlukan.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Berapa kualitas video yang tersedia?</button>
+                <div class="faq-answer">
+                    <p>Kami mendukung kualitas SD, HD, Full HD, hingga 4K tergantung video aslinya.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Apakah perlu install aplikasi?</button>
+                <div class="faq-answer">
+                    <p>Tidak perlu. DownloaderFaster berjalan langsung di browser Anda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <rect width="40" height="40" rx="10" fill="url(#grad2)"/>
+                        <path d="M20 10L20 25M14 20L20 26L26 20" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <line x1="12" y1="30" x2="28" y2="30" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                        <defs>
+                            <linearGradient id="grad2" x1="0" y1="0" x2="40" y2="40">
+                                <stop offset="0%" stop-color="#7c3aed"/>
+                                <stop offset="100%" stop-color="#ec4899"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <span>DownloaderFaster</span>
+                </div>
+                <p>Download video dan audio gratis dari berbagai platform media sosial.</p>
+            </div>
+            <div>
+                <h4>Platform</h4>
+                <ul>
+                    <li><a href="facebook-video-downloader.html">Facebook</a></li>
+                    <li><a href="instagram-video-downloader.html">Instagram</a></li>
+                    <li><a href="tiktok-video-downloader.html">TikTok</a></li>
+                    <li><a href="twitter-video-downloader.html">Twitter/X</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 DownloaderFaster. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="/static/js/download.js"></script>
+    <script>
+        document.querySelectorAll('.faq-question').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                var item = this.parentElement;
+                var isActive = item.classList.contains('active');
+                document.querySelectorAll('.faq-item').forEach(function(el) {
+                    el.classList.remove('active');
+                });
+                if (!isActive) item.classList.add('active');
+            });
+        });
+        
+        document.getElementById('downloadForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            var url = document.getElementById('urlInput').value.trim();
+            if (url) handleDownload(url);
+        });
+    </script>
+</body>
+</html>
+

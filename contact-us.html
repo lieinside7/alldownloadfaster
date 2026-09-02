@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - DownloaderFaster</title>
+    <link rel="icon" type="image/svg+xml" href="/static/img/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/main.min.css">
+    <style>
+        .contact-section { padding: 120px 20px 60px; max-width: 600px; margin: 0 auto; }
+        .contact-form { background: var(--bg-card); border: 1px solid rgba(255,255,255,0.05); border-radius: var(--radius); padding: 40px; }
+        .form-group { margin-bottom: 20px; }
+        .form-label { display: block; margin-bottom: 8px; font-weight: 500; color: var(--text-white); }
+        .form-input, .form-textarea { width: 100%; padding: 14px 18px; background: var(--bg-elevated); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; color: var(--text-white); font-size: 1rem; transition: var(--transition); }
+        .form-input:focus, .form-textarea:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 20px rgba(124,58,237,0.2); }
+        .form-textarea { min-height: 150px; resize: vertical; font-family: inherit; }
+        .form-submit { width: 100%; padding: 16px; background: var(--gradient-1); border: none; border-radius: 12px; color: white; font-size: 1rem; font-weight: 600; cursor: pointer; transition: var(--transition); }
+        .form-submit:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(124,58,237,0.4); }
+    </style>
+</head>
+<body>
+    <header class="hdr">
+        <div class="hdr-in">
+            <a href="/" class="logo">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                    <rect width="40" height="40" rx="10" fill="url(#grad1)"/>
+                    <path d="M20 10L20 25M14 20L20 26L26 20" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <line x1="12" y1="30" x2="28" y2="30" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                    <defs><linearGradient id="grad1" x1="0" y1="0" x2="40" y2="40"><stop offset="0%" stop-color="#7c3aed"/><stop offset="100%" stop-color="#ec4899"/></linearGradient></defs>
+                </svg>
+                <span>DownloaderFaster</span>
+            </a>
+        </div>
+    </header>
+    
+    <section class="contact-section">
+        <div class="section-header" style="margin-bottom: 40px;">
+            <div class="section-badge">📬 Hubungi Kami</div>
+            <h1 class="section-title">Contact Us</h1>
+            <p class="section-desc">Punya pertanyaan atau saran? Silakan hubungi kami.</p>
+        </div>
+        
+        <form class="contact-form">
+            <div class="form-group">
+                <label class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-input" placeholder="Masukkan nama Anda" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-input" placeholder="Masukkan email Anda" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Subjek</label>
+                <input type="text" class="form-input" placeholder="Subjek pesan" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Pesan</label>
+                <textarea class="form-textarea" placeholder="Tulis pesan Anda..." required></textarea>
+            </div>
+            <button type="submit" class="form-submit">Kirim Pesan</button>
+        </form>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-bottom">
+            <p>&copy; 2024 DownloaderFaster. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
